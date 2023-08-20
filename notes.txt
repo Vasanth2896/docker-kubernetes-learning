@@ -1,0 +1,66 @@
+This is repository which consists of my learning related to basics of docker and kubernetes.
+This is the source youtube video from which I had learnt the docker basics.
+
+https://www.youtube.com/watch?v=kTp5xUtcalw
+
+All the containers will be running locally (Mostly on the PC which I had used at that time) and not on any cloud Providers
+
+This tutorial introduces to the term microservices and lists down it benefits and downsides
+
+cloud Native:
+Cloud Native uses Containers,microservices,service meshes, immutable infrastructure and declarative APIs
+
+Container:
+Container is the first building block of Cloud Native architecture.
+It is a unit of Software / deployment.It consists Code, Runtime, System tools and System libraries.
+
+Why Containers?
+- Move faster by deploying smaller units 
+- use fewer resources
+- Fit more into the same host
+- Faster automation
+- portability
+- isolation
+
+Difference between VM's and Containers explained by Geeksforgeeks => https://www.geeksforgeeks.org/difference-between-virtual-machines-and-containers/
+
+Containers are made of three layers:
+- Application (Read or Write)
+- Customization (Read only)
+- Base OS(Windows or Linux)(Read only)
+
+Container registry services are like Github for Containers.
+Contains Container images.
+
+If there are more than one Container present in a given system, Container Orchestrators are used for the following reasons
+- Manage 
+  - Infrastructure
+  - Containers
+  - Deployment
+  - Scaling
+  - Failover
+  - Health monitoring
+  - App upgrades, Zero-Downtime
+- Install your own
+  - Kubernetes, Swarm, Service Fabric
+- Orchestrators as a service (These are given by cloud providers)
+  - Azure Kubernetes Service, Service Fabric
+
+What is Docker?? 
+Docker is 
+- the company
+- the platform
+- Open container initiative (Runtime and image specs)
+- moby project (Container runtime)
+- Mirantis (Company which acquired Docker Enterprise in 2019 and They are in charge of Docker Certification)
+
+
+- An open source container runtime
+- Mac, Windows & Linux Support
+- Command line tool
+- "Dockerfile" file format for building container images
+- Windows let you run Both Windows and Linux Containers
+
+Tip: Restart when else or docker fails
+
+Docker desktop is beginner-friendly. I was using Windows 11 along with WSL.
