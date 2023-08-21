@@ -64,3 +64,12 @@ Docker is
 Tip: Restart when else or docker fails
 
 Docker desktop is beginner-friendly. I was using Windows 11 along with WSL.
+
+Some Docker Commands
+- docker info => Display system information
+- docker version => Display the system's version
+- docker login => Log in to a Docker registry
+
+Docker cheatsheet:
+https://www.geeksforgeeks.org/docker-tutorial/?ref=lbp
+
